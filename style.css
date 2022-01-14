@@ -50,5 +50,6 @@ a{  color: #FFFFFF;
 }
 /* popular-collection */
 .popular-collection{
-
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
 }
