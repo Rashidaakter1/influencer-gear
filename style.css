@@ -81,9 +81,32 @@ h2{
     height: 256px;
     border-radius: 5px;
 }
+/* feature */
+.feature-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    margin-bottom: 80px;
+}
+.feature-data>h2{
+    text-align: left;
+}
+#feature-button{
+    text-decoration: none;
 
-
-
+}
+.feature-data{
+    width:50%;
+    text-align:left;
+}
+.feature-image img{
+    width:400px;
+    height: 400px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+ 
+}
 
 
 
@@ -93,7 +116,7 @@ h2{
 
 /* footer */
 footer{
-    background: #0A0826;
+    background:#0A0826;
     padding: 10px;
 
 }
@@ -107,5 +130,6 @@ small{
     font-size:14px ;
 }
 .social-logos{
-
+    color: white;
+    text-align: center;
 }
